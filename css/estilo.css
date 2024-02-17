@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&family=Roboto:wght@400;700&display=swap');
+
+:root{
+
+
+}
+
+body{
+    background-color: rgba(252, 210, 22, 0.916);
+}
+.main{
+    display: flex;
+    margin-left: 142px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    margin-left: 124px;
+    gap: 38px;
+    font-size: 1.3em;
+    padding: 3px 10px;
+
+}
+.menu,.main a{
+    text-decoration: none;
+    color: black;
+
+}
+.menu a:hover{
+    background: linear-gradient(45deg, #4f4219, #ffeb33b4)!important;
+    color: #FFF6F6;
+    border-radius: 2px;
+}
+.logotipo{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: unset;
+    font-weight: 800;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.box{
+    margin-left: 142px;
+}
+.texto{
+    border-left-color: #000;
+    border-left-width: 8px;
+    border-left-style: solid;
+    padding-left: 18px;
+    font-size: 22px;
+}
+.botao{
+    border-radius: 30px;
+    background: #000;
+    width: 259px;
+    color: #FFF6F6;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.imgpet{
+    height: 850px;
+    width: 700px;
+}
+
